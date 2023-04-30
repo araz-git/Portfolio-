@@ -1,0 +1,9 @@
+#contact img {
+  width: 40px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#contact a {
+  text-decoration: underline;
+}

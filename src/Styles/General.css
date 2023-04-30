@@ -1,0 +1,68 @@
+* {
+  transition: 0.5s;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+img {
+  object-fit: contain;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.stop-scrolling #projects,
+.stop-scrolling .skills {
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+body {
+  font-size: 1.125rem;
+}
+
+section {
+  width: 80vw;
+  margin: 10vh auto;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-even {
+  justify-content: space-evenly;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.align-center {
+  align-items: center;
+}
+
+@media only screen and (orientation: portrait) {
+  section {
+    width: 90vw;
+  }
+}

@@ -1,0 +1,50 @@
+#main {
+  height: 90vh;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+#main img {
+  width: 30vw;
+}
+
+#my-card {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: fit-content;
+}
+
+/* h1 {
+  font-weight: 500;
+}
+
+#job {
+  font-weight: 400;
+} */
+
+#arrow-down {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+#arrow-down svg {
+  width: 40px;
+}
+
+#arrow-down svg:hover {
+  scale: 1.5;
+}
+
+@media only screen and (orientation: portrait) {
+  #main img {
+    width: 70vw;
+  }
+}

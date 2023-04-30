@@ -1,0 +1,97 @@
+nav {
+  list-style-type: none;
+  font-size: 1.5rem;
+  z-index: 100;
+  padding-top: 0.75rem;
+  background-color: white;
+  white-space: nowrap;
+}
+
+nav a {
+  width: 110px;
+}
+
+nav li:hover {
+  scale: 1.2;
+}
+
+nav .flex {
+  display: block;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hamburger,
+#x {
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    position: fixed;
+    padding: 0;
+    top: 0;
+    left: 0;
+    line-height: 2.5;
+    background-color: white;
+  }
+
+  nav li:hover {
+    scale: none;
+  }
+
+  nav .flex {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+  }
+
+  #x {
+    display: block;
+    position: absolute;
+    top: 7px;
+    right: 15px;
+  }
+
+  .menu-flex {
+    display: block;
+  }
+
+  .menu {
+    text-align: center;
+    overflow: hidden;
+    height: 100vh;
+  }
+
+  .menu li {
+    margin: 10px;
+    background-color: white;
+    border: 0.5px solid black;
+    width: 100vw;
+  }
+
+  .menu-close {
+    width: 0;
+  }
+
+  .menu-open {
+    width: 100vw;
+  }
+}

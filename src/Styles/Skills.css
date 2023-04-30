@@ -1,0 +1,20 @@
+.skills {
+  text-align: center;
+  margin: auto;
+}
+
+.skills div {
+  margin: 1rem;
+  width: 80px;
+}
+
+.skills div:hover {
+  scale: 1.2;
+  cursor: pointer;
+}
+
+.skills img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
