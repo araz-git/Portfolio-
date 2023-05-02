@@ -58,8 +58,8 @@ export const projects = [
     title: "Portfolio Website",
     img: "images/portfolio.jpg",
     stack: "JS React CSS",
-    description: ["You are currently on this website."],
+    description: ["You are currently on this website :)"],
     link: "#main",
-    repo: "https://github.com/araz-git/portfolio",
+    repo: "https://github.com/araz-git/Portfolio-",
   },
 ];
